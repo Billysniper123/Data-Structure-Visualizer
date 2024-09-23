@@ -31,6 +31,17 @@
     z-index: 1;
 }
 
+.tertiary-wrapper {
+    position: absolute;
+    top: calc(50% + 20vh + 5px);
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    height: 20vh;
+    width: 100%;
+    justify-content: center;
+    z-index: 1;
+}
 .hidden {
     display: none;
 }
@@ -57,6 +68,9 @@
     border: red;
 }
 
+.tertiary-bar{
+    border: yellow;
+}
 .button-container {
     position: fixed;
     bottom: 0;
